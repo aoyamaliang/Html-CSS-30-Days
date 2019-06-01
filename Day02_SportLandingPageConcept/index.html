@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sport Landing Page</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
 </head>
 
 <body>
     <div class="wrapper">
-        <div class="patten"></div>
+        <div class="pattern"></div>
         <div class="nav">
             <div class="logo"><img src="./img/logo.svg" alt=""></div>
             <div class="menu">
@@ -41,10 +42,10 @@
         </div>
         <div class="media">
             <ul>
-                <li><i class="fa fa-car"></i></li>
-                <li><i class="fa fa-car"></i></li>
-                <li><i class="fa fa-car"></i></li>
-                <li><i class="fa fa-car"></i></li>
+                <li><i class="fa fa-facebook-square fa-2x"></i></li>
+                <li><i class="fa fa-instagram fa-2x"></i></li>
+                <li><i class="fa fa-twitter fa-2x"></i></li>
+                <li><i class="fa fa-youtube fa-2x"></i></li>
             </ul>
         </div>
     </div>
@@ -54,96 +55,92 @@
             opacity: 1,
             ease: Expo.easeInOut
         });
+
         TweenMax.to(".title-2", 2, {
             delay: 0.2,
             x: -80,
             opacity: 1,
             ease: Expo.easeInOut
         });
+
         TweenMax.from(".runner", 2, {
-            delay: 0.2,
-            x: 160,
-            opacity: 1,
+            delay: 1.6,
+            x: -80,
+            opacity: 0,
             ease: Expo.easeInOut
         });
+
         TweenMax.from(".box-1", 4, {
             delay: 1,
             rotation: 200,
             transformOrigin: "50% 50%",
             opacity: 0,
             x: -180,
-            opacity: 1,
             ease: Expo.easeInOut
         });
+
         TweenMax.from(".box-2", 4, {
             delay: 1.2,
             rotation: 90,
             transformOrigin: "50% 50%",
             opacity: 0,
             x: -180,
-            opacity: 1,
             ease: Expo.easeInOut
         });
+
         TweenMax.from(".box-3", 4, {
             delay: 1,
             rotation: 180,
             transformOrigin: "50% 50%",
             opacity: 0,
             x: -180,
-            opacity: 1,
             ease: Expo.easeInOut
         });
-        TweenMax.from(".patten", 2, {
-            delay: .8,
+
+        TweenMax.from(".pattern", 2, {
+            delay: 0.8,
             width: 0,
-            rotation: 180,
-            transformOrigin: "50% 50%",
             opacity: 0,
-            x: -180,
-            opacity: 1,
             ease: Expo.easeInOut
         });
-        TweenMax.from(".logo", 4, {
+
+        TweenMax.from(".logo", 2, {
             delay: 1.6,
-            rotation: 180,
-            transformOrigin: "50% 50%",
-            opacity: 0,
             y: 20,
             opacity: 0,
             ease: Expo.easeInOut
         });
+
         TweenMax.staggerFrom(".menu ul li", 2, {
             delay: 1.6,
             y: 20,
             opacity: 0,
             ease: Expo.easeInOut
-        });
-        TweenMax.staggerFrom(".media ul li", 2, {
-            delay: 2,
-            rotation: 180,
-            transformOrigin: "50% 50%",
-            opacity: 0,
-            x: -180,
-            opacity: 1,
-            ease: Expo.easeInOut
-        });
+        }, 0.1);
+
         TweenMax.from(".cart", 2, {
             delay: 1.7,
-            opacity: 0,
             y: 20,
             opacity: 0,
             ease: Expo.easeInOut
         });
-        TweenMax.from(".content", 2, {
+
+        TweenMax.staggerFrom(".media ul li", 2, {
+            delay: 2,
+            y: 20,
+            opacity: 0,
+            ease: Expo.easeInOut
+        }, 0.1);
+
+        TweenMax.from(".content p", 2, {
             delay: 2.4,
-            opacity: 0,
             y: 20,
             opacity: 0,
             ease: Expo.easeInOut
         });
-        TweenMax.from("botton", 2, {
+
+        TweenMax.from(".content button", 2, {
             delay: 2.6,
-            opacity: 0,
             y: 20,
             opacity: 0,
             ease: Expo.easeInOut
