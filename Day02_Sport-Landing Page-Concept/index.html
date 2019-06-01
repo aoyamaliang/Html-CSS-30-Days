@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sport Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="patten"></div>
+        <div class="nav">
+            <div class="logo"><img src="./img/logo.svg" alt=""></div>
+            <div class="menu">
+                <ul>
+                    <li>Home</li>
+                    <li>Product</li>
+                    <li>Forum</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="cart"><img src="./img/cart.svg" alt=""></div>
+        </div>
+        <div class="box-1"></div>
+        <div class="box-2"></div>
+        <div class="box-3"></div>
+        <div class="title-2">Everything</div>
+        <div class="runner"><img src="./img/runner2.png" alt=""></div>
+        <div class="title-1">Fast</div>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quibusdam quod molestiae suscipit.
+                Voluptates, ab excepturi. Molestias blanditiis ut, explicabo ipsa rerum laborum. Exercitationem aliquam
+                dicta, rem voluptate eligendi ullam! Ea ducimus ullam asperiores quasi nesciunt accusantium nobis
+                similique nisi assumenda perferendis rem tenetur optio ipsum nihil debitis, architecto et!</p>
+            <button>Shop Now</button>
+        </div>
+        <div class="media">
+            <ul>
+                <li><i class="fa fa-car"></i></li>
+                <li><i class="fa fa-car"></i></li>
+                <li><i class="fa fa-car"></i></li>
+                <li><i class="fa fa-car"></i></li>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript">
+        TweenMax.to(".title-1", 2, {
+            x: 30,
+            opacity: 1,
+            ease: Expo.easeInOut
+        });
+        TweenMax.to(".title-2", 2, {
+            delay: 0.2,
+            x: -80,
+            opacity: 1,
+            ease: Expo.easeInOut
+        });
+        TweenMax.from(".runner", 2, {
+            delay: 0.2,
+            x: 160,
+            opacity: 1,
+            ease: Expo.easeInOut
+        });
+        TweenMax.from(".box-1", 4, {
+            delay: 1,
+            rotation: 200,
+            transformOrigin: "50% 50%",
+            opacity: 0,
+            x: -180,
+            opacity: 1,
+            ease: Expo.easeInOut
+        });
+        TweenMax.from(".box-2", 4, {
+            delay: 1.2,
+            rotation: 90,
+            transformOrigin: "50% 50%",
+            opacity: 0,
+            x: -180,
+            opacity: 1,
+            ease: Expo.easeInOut
+        });
+        TweenMax.from(".box-3", 4, {
+            delay: 1,
+            rotation: 180,
+            transformOrigin: "50% 50%",
+            opacity: 0,
+            x: -180,
+            opacity: 1,
+            ease: Expo.easeInOut
+        });
+        TweenMax.from(".patten", 2, {
+            delay: .8,
+            width: 0,
+            rotation: 180,
+            transformOrigin: "50% 50%",
+            opacity: 0,
+            x: -180,
+            opacity: 1,
+            ease: Expo.easeInOut
+        });
+        TweenMax.from(".logo", 4, {
+            delay: 1.6,
+            rotation: 180,
+            transformOrigin: "50% 50%",
+            opacity: 0,
+            y: 20,
+            opacity: 0,
+            ease: Expo.easeInOut
+        });
+        TweenMax.staggerFrom(".menu ul li", 2, {
+            delay: 1.6,
+            y: 20,
+            opacity: 0,
+            ease: Expo.easeInOut
+        });
+        TweenMax.staggerFrom(".media ul li", 2, {
+            delay: 2,
+            rotation: 180,
+            transformOrigin: "50% 50%",
+            opacity: 0,
+            x: -180,
+            opacity: 1,
+            ease: Expo.easeInOut
+        });
+        TweenMax.from(".cart", 2, {
+            delay: 1.7,
+            opacity: 0,
+            y: 20,
+            opacity: 0,
+            ease: Expo.easeInOut
+        });
+        TweenMax.from(".content", 2, {
+            delay: 2.4,
+            opacity: 0,
+            y: 20,
+            opacity: 0,
+            ease: Expo.easeInOut
+        });
+        TweenMax.from("botton", 2, {
+            delay: 2.6,
+            opacity: 0,
+            y: 20,
+            opacity: 0,
+            ease: Expo.easeInOut
+        });
+    </script>
+</body>
+
+</html>
