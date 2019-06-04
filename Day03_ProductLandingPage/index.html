@@ -1,5 +1,7 @@
-<!DOCTYPE html>
+
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,60 +11,52 @@
     <link rel="stylesheet" href="./style.css">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap" rel="stylesheet">
 </head>
+
 <body>
-<header>
-    <div class="menu-toggle">
-        <i class="fas fa-bars"></i>
-    </div>
-<div class="overlay"></div>
-<nav>
-        <i class="fas fa-times"></i>
-        <div class="logo">
-            <img src="./img/logo.svg" alt="Logo">
+    <header>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
         </div>
-        <div class="nav-middle">
-            <ul>
-                <li><a href="#">Collection</a></li>
-                <li><a href="#">Catalog</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Blog</a></li>
-            </ul>
-        </div>
-        <div class="nav-right">
-            <ul>
-                <li><a href="#"><i class="fas fa-search"></i></a></li>
-                <li><a href="#"><i class="fas fa-user"></i>Account</a></li>
-                <li><a href="#"><i class="fas fa-shopping-cart"></i>Cart</a></li>
-            </ul>
-        </div>
-</nav>
-<div class="main">
-    <div class="tone-1">
-        <div class="product-info">
-            <H1>ETCH PENDANT BRASS</H1>
-            <p>Giving out a soft, ambient glow</p>
-            <h2>$320</h2>
-            <div class="info-btn">
-                <a href="" class="btn discover-btn">DISCOVER</a>
-                <a href="" class="btn discover-btn">ADD TO CART</a>
+        <div class="overlay"></div>
+        <nav>
+            <i class="fas fa-times"></i>
+            <div class="logo">
+                <img src="./img/logo.svg" alt="Logo">
             </div>
+            <div class="nav-middle">
+                <ul>
+                    <li><a href="#">Collection</a></li>
+                    <li><a href="#">Catalog</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <ul>
+                    <li><a href="#"><i class="fas fa-search"></i></a></li>
+                    <li><a href="#"><i class="fas fa-user"></i>Account</a></li>
+                    <li><a href="#"><i class="fas fa-shopping-cart"></i>Cart</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="main">
+            <div class="tone-1">
+                <div class="product-info">
+                    <H1>ETCH PENDANT BRASS</H1>
+                    <p>Giving out a soft, ambient glow</p>
+                    <h2>$320</h2>
+                    <div class="info-btn">
+                        <a href="" class="btn discover-btn">DISCOVER</a>
+                        <a href="" class="btn cart-btn">ADD TO CART</a>
+                    </div>
+                </div>
+            </div>
+            <div class="tone-2"><img src="./img/Lamp2.png" alt="lamp"></div>
         </div>
-    </div>
-    <div class="tone-2"><img src="./img/Lamp2.png" alt="lamp"></div>
-</div>
-</header>
-<script>
-    $(function) {
-        $('.menu-toggle,.fa-times').on('click',function(){
-            $('nav').toggleClass('active');
-            $('overlay').toggleClass('.menu-open');
-        });
-        $('.overlay').on('click',function(){
-            $('nav').removeClass('active');
-            $(this).toggleClass('.menu-open');
-        });
-    }
-</script>
+    </header>
+
     <script src="jquery-3.4.1.min.js"></script>
+    <script src="./main.js"></script>
 </body>
+
 </html>
