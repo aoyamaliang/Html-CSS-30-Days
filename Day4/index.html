@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./fontawesome-free-5.8.2-web/css/all.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="./img/logo.png" alt="logo" class="logo">
+
+            <nav>
+                <a href="#" class="hide-desktop" alt="toggle menu" class="menu" id="menu">
+                    <i class="fas fa-bars"></i>
+                </a>
+
+                <ul class="show-desktop hide-mobile" id="nav">
+                    <li id="exit" class="exit-btn hide-desktop"><img src="./img/exit.svg" alt="exit menu"></li>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+            <img src="./img/undraw_digital_currency_qpak.svg" alt="server" class="server">
+            <h1>Web Hosting for the Modern Era</h1>
+            <p class="subhead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, sint.</p>
+
+            <img src="./img/scroll-down.svg" alt="scroll down" class="scroll hide-mobile show-desktop">
+        </section>
+    </div>
+    <div class="blue-container">
+        <div class="container">
+            <ul>
+                <li>
+                    <img src="./img/calendar.svg" alt="calender icon">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo?Lorem ipsum dolor sit, amet
+                        consectetur adipisicing elit. Illo?</p>
+                </li>
+                <li>
+                    <img src="./img/clock.svg" alt="clock icon">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo?Lorem ipsum dolor sit, amet
+                        consectetur adipisicing elit. Illo?</p>
+                </li>
+                <li>
+                    <img src="./img/wallet.svg" alt="wallet icon">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo?Lorem ipsum dolor sit, amet
+                        consectetur adipisicing elit. Illo?</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="grey-container">
+        <div class="container">
+            <ul>
+                <li>
+                    <figure>
+                        <img src="./img/user1.jpg" alt="user1">
+                        <blockquote>“ Lorem ipsum dolor sit amet ”.</blockquote>
+                        <figcaption>Jane Doe</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./img/user2.jpg" alt="user2">
+                        <blockquote>“ Lorem ipsum dolor sit amet.amet consectetur adipisicing elit.”</blockquote>
+                        <figcaption>Mary Smith</figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Start your free trial now!</h2>
+        <a href="#" class="cta">Get Started</a>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="container">
+                <a href="#"><img src="./img/logo.png" alt="logo" class="logo"></a>
+                <p class="addresss">Lorem ipsum dolor sit amet.</p>
+                <ul class="footer-links">
+                    <li><a href="#">Term of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        var menu = document.getElementById('menu');
+        var nav = document.getElementById('nav');
+        var mexit = document.getElementById('exit');
+
+        menu.addEventListener('click', function (e) {
+            nav.classList.toggle('hide-mobile');
+            e.preventDefault()
+        })
+
+        exit.addEventListener('click', function (e) {
+            nav.classList.add('hide-mobile');
+            e.preventDefault()
+        })
+    </script>
+
+
+</body>
+
+</html>

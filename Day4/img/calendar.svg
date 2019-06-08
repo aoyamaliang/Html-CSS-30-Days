@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="calendar" transform="translate(38.000000, 38.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M384.90625,34.0625 L364.46875,34.0625 L364.46875,0 L330.40625,0 L330.40625,34.0625 L105.59375,34.0625 L105.59375,0 L71.53125,0 L71.53125,34.0625 L51.09375,34.0625 C22.9070312,34.0625 0,56.9695313 0,85.15625 L0,384.90625 C0,413.092969 22.9070312,436 51.09375,436 L384.90625,436 C413.092969,436 436,413.092969 436,384.90625 L436,85.15625 C436,56.9695313 413.092969,34.0625 384.90625,34.0625 Z M401.9375,384.90625 C401.9375,394.273438 394.273437,401.9375 384.90625,401.9375 L51.09375,401.9375 C41.7265625,401.9375 34.0625,394.273438 34.0625,384.90625 L34.0625,160.09375 L401.9375,160.09375 L401.9375,384.90625 Z M401.9375,126.03125 L34.0625,126.03125 L34.0625,85.15625 C34.0625,75.7890625 41.7265625,68.125 51.09375,68.125 L71.53125,68.125 L71.53125,102.1875 L105.59375,102.1875 L105.59375,68.125 L330.40625,68.125 L330.40625,102.1875 L364.46875,102.1875 L364.46875,68.125 L384.90625,68.125 C394.273437,68.125 401.9375,75.7890625 401.9375,85.15625 L401.9375,126.03125 Z" id="Shape"></path>
+            <rect id="Rectangle" x="65" y="196" width="34" height="34"></rect>
+            <rect id="Rectangle" x="133" y="196" width="34" height="34"></rect>
+            <rect id="Rectangle" x="201" y="196" width="34" height="34"></rect>
+            <rect id="Rectangle" x="269" y="196" width="34" height="34"></rect>
+            <rect id="Rectangle" x="337" y="196" width="34" height="34"></rect>
+            <rect id="Rectangle" x="65" y="264" width="34" height="34"></rect>
+            <rect id="Rectangle" x="133" y="264" width="34" height="34"></rect>
+            <rect id="Rectangle" x="201" y="264" width="34" height="34"></rect>
+            <rect id="Rectangle" x="269" y="264" width="34" height="34"></rect>
+            <rect id="Rectangle" x="65" y="332" width="34" height="34"></rect>
+            <rect id="Rectangle" x="133" y="332" width="34" height="34"></rect>
+            <rect id="Rectangle" x="201" y="332" width="34" height="34"></rect>
+            <rect id="Rectangle" x="269" y="332" width="34" height="34"></rect>
+            <rect id="Rectangle" x="337" y="264" width="34" height="34"></rect>
+        </g>
+    </g>
+</svg>

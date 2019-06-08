@@ -37,7 +37,7 @@ a {
 
 .menu-toggle i,
 .fa-times {
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 .fa-times {
@@ -57,7 +57,7 @@ nav {
 .logo {
     width: 5rem;
     box-sizing: content-box;
-    padding-left: 3rem;
+    padding-left: 4rem;
 }
 
 .logo img {
@@ -73,10 +73,11 @@ nav ul {
 }
 
 nav ul li {
-    padding: 0 3rem;
     line-height: 8rem;
-    transition: background-color .5s;
+    padding: 0 3rem;
+    transition: background-color .5s
 }
+
 
 nav ul li:hover {
     background-color: rgba(0, 0, 0, .075)
@@ -191,7 +192,7 @@ nav ul li:hover {
     transform: translateY(-1rem);
 }
 
-@media screen and(max-width:1200px) {
+/* @media screen and(max-width:1200px) {
     .tone-2 img {
         left: -5rem;
     }
@@ -332,5 +333,51 @@ nav ul li:hover {
     .btn {
         padding: .7rem;
         font-size: .8rem;
+    }
+} */
+@media screen and (max-width:991.98px) {
+
+    nav {
+        display: flex;
+        border-bottom: none;
+        flex-direction: column;
+        width: 25rem;
+        height: 100vh;
+        justify-content: space-evenly;
+        /* transform: translateX(-25rem); */
+        transition: transform .5s
+    }
+
+    nav ul {
+        height: initial;
+        display: block;
+        height: 5rem;
+        font-size: 2rem;
+        text-align: center
+    }
+
+    nav ul li {
+        line-height: 5rem;
+        padding: 0;
+    }
+
+    .logo {
+        padding: 0
+    }
+
+    .nav-right ul li,
+    .nav-right ul li:nth-child(1) {
+        border: none
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .fa-times {
+        display: block;
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
     }
 }
